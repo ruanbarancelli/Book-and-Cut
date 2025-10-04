@@ -3,6 +3,7 @@
 }
 
 .data-hora {
+    background-color: #f3f1ee;
     justify-items: center;
     border: solid 2px #98CE00;
     border-radius: 5px;
@@ -62,5 +63,5 @@
 .localizacao > iframe {
     border-radius: 5px;
     box-shadow: 0 0 2px 2px #98CE00;
-    padding: 5px;
+    padding: 2px;
 }
