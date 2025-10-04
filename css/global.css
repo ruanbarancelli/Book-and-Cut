@@ -13,7 +13,6 @@ body {
     color: #1E1B18;
     min-height: 100vh;
     padding: 3em;
-    min-width: 
 }
 
 form {
@@ -30,26 +29,26 @@ form h2 {
 }
 
 .prosseguir-button {
-    background-color: #97ce0096;
-    border: solid 2px #98CE00;
-    border-radius: 5px;
-    padding: 5px 10px 5px 10px;
-    transition: all 0.3s ease-in-out;
+    text-align: center;
+    margin: auto;
 }
 
 .prosseguir-button a {
-    text-align: center;
+    background-color: #97ce0096;
+    border: solid 2px #98CE00;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
     text-decoration: none;
     color: #1E1B18;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-.prosseguir-button:hover {
+.prosseguir-button a:hover {
     background-color: #98CE00;
-    transform: scale(1.05);
 }
 
 .prosseguir-button {
-    justify-self: center;
     margin-top: 30px;
 }
